@@ -46,7 +46,7 @@ Working with Terraform involves managing collections of infrastructure resources
 
 HCP Terraform manages infrastructure collections with workspaces instead of directories. A workspace contains everything Terraform needs to manage a given collection of infrastructure, and separate workspaces function like completely separate working directories.
 
-You need to create a workspace in HCP Terraform. The workspace contains the infrastructure building blocks for resources to be provisioned on AWS.
+You need to create your own workspace in HCP Terraform. The workspace contains the infrastructure building blocks for resources to be provisioned on AWS.
 
 > [!NOTE]  
 > For our convenience we put all the workspaces in one project. Please work on your own workspace which you will create yourself. 
